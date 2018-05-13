@@ -1,0 +1,143 @@
+body
+{
+  background-color: #EAE8E7;
+  display: flex;
+}
+
+i
+{
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+/* ---------------PARTIE GAUCHE-------------- */
+
+aside
+{
+  width: 400px;
+  background-color: #5DA4D9;
+  color: #FFFFFF;
+  height: 100%;
+}
+
+.info
+{
+  display: flex;
+  justify-content:flex-start;
+  padding-right: 10%;
+  padding-bottom: 15px;
+}
+
+aside hr
+{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  color: #767270;
+}
+
+.text
+{
+  margin-left: 10%;
+}
+
+.note
+{
+  font-size: 18px;
+  margin-bottom: -10px;
+}
+
+.sous
+{
+  font-size: 12px;
+}
+
+
+/* ------------photo------------ */
+
+#profil
+{
+  background-image: url(../img/photo.jpg);
+  height: 205px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#profil .text
+{
+  color: #767270;
+  padding-top: 30px;
+}
+
+#profil h1
+{
+  margin-bottom: 90px;
+}
+
+
+/* ------------photo------------ */
+
+/* ---------------PARTIE GAUCHE-------------- */
+/* ---------------PARTIE DROITE-------------- */
+
+main
+{
+  margin: 0px 20px;
+  color: #767270;
+}
+
+main i
+{
+  padding-top: 40px;
+  padding-left: 3%;
+}
+
+.titre h3
+{
+  margin-left: 3%;
+  font-size: 35px;
+}
+
+.detail
+{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h6
+{
+  color: #5DA4D9;
+}
+
+.categorie
+{
+  margin: 0px 10px 20px 10px;
+  background-color: #FFFFFF;
+}
+
+.titre
+{
+  display: flex;
+}
+
+#experiences, #etudes
+{
+  height: 610px;
+}
+
+#interets
+{
+  height: 267px;
+}
+
+#interets .rubrique
+{
+  text-align: center;
+}
+
+.rubrique i
+{
+  color: #5DA4D9;
+  padding: 40px 49px;
+}
+/* ---------------PARTIE DROITE-------------- */
